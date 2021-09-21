@@ -1,59 +1,53 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Webpack setup
 
-> One paragraph statement about the project.
+This is a simple yet powerful webpack boilerplate for later use as a starting point in other projects. It includes an HTML template, a JS file and a CSS that's imported by the JS file. To build it yourself, you may follow these [steps](https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/exercises/exercise_set_up_project_with_webpack.md).
+
+## Mobile
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Webpack
+- HTML5
+- CSS3
+- ES6
+- Node.js
+- Visual Studio Code
+- Git & GitHub
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get Webpack up and running in another project, follow these simple steps:
 
-
-To get a local copy up and running follow these simple example steps.
+1. Clone the repository into your machine (Or download .zip file and extract).
+2. Open the project's folder.
+3. Copy and paste all files and folders except app_screenshot.png, MIT.md and README.md into the other project's root folder.
+4. In your other project's root folder, run the following installing commands:
+   1. npm install webpack webpack-cli --save-dev
+   2. npm install --save lodash
+   3. npm install --save-dev style-loader css-loader
+   4. npm install --save-dev html-webpack-plugin
+   5. npm install --save-dev webpack-dev-server
+5. Run npm start
 
 ### Prerequisites
 
+Any modern web browser will do. Any source-code editor (VSCode recommended).
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Follow the steps described before.
 
 ## Authors
 
-👤 **Author1**
+👤 **Dico Diaz Dussan**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@dicodiaz](https://github.com/dicodiaz)
+- Twitter: [@DicoDiaz1](https://twitter.com/DicoDiaz1)
+- LinkedIn: [Dico Diaz Dussan](https://www.linkedin.com/in/dico-diaz-dussan-476106a6/)
 
 ## 🤝 Contributing
 
@@ -69,7 +63,8 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- Microverse program
+- My code reviewers
 
 ## 📝 License
 
