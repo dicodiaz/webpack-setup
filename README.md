@@ -25,13 +25,7 @@ To get Webpack up and running in another project, follow these simple steps:
 1. Clone the repository into your machine (Or download .zip file and extract).
 2. Open the project's folder.
 3. Copy and paste all files and folders except app_screenshot.png, MIT.md and README.md into the other project's root folder.
-4. In your other project's root folder, run the following installing commands:
-   1. npm install webpack webpack-cli --save-dev
-   2. npm install --save lodash
-   3. npm install --save-dev style-loader css-loader
-   4. npm install --save-dev html-webpack-plugin
-   5. npm install --save-dev webpack-dev-server
-5. Run npm start
+4. Run npm start
 
 ### Prerequisites
 
